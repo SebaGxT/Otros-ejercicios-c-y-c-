@@ -1,4 +1,4 @@
-//Cargar en un vector V de dimensión 7 la suma de las columna de una matriz de 7x7, previamente cargada con enteros positivos. 
+//Cargar en un vector V de dimensiÃ³n 7 la suma de las columna de una matriz de 7x7, previamente cargada con enteros positivos. 
 //Librerias
 #include <stdio.h>
 #include <stdlib.h>
@@ -8,7 +8,7 @@ int main(void){
 	
 //Variables
 	
-	const int FIL=2,COL=2;
+	const int FIL=7,COL=7;
 	int f,c,vec[FIL],mat[FIL][COL];
 
 //Ingreso de datos	
@@ -62,7 +62,7 @@ int main(void){
 
 	printf("\n");
 	
-	//Número de columna
+	//NÃºmero de columna
 	for(c=0;c<COL;c++){
 		
 		printf("\t  Columna %d",c+1);
