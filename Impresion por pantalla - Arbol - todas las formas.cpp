@@ -22,7 +22,7 @@ void pausar(){
 
 void leer_nro_e(char cade[30],int &n){
 	
-	printf("\n %s: ",cade);
+	printf("\n %s",cade);
 	fflush(stdin);	
 	scanf("%d",&n);
 
@@ -230,17 +230,17 @@ int main(){
 	
 //Proceso //Salida de datos
 		
-		printf("\n\n");
+		printf("\n\nIRD\n");
 		imp_arbol_rec_IRD(ar);
-		printf("\n\n");
+		printf("\n\nIDR\n");
 		imp_arbol_rec_IDR(ar);
-		printf("\n\n");
+		printf("\n\nRID\n");
 		imp_arbol_rec_RID(ar);
-		printf("\n\n");
+		printf("\n\nRDI\n");
 		imp_arbol_rec_RDI(ar);
-		printf("\n\n");
+		printf("\n\nDIR\n");
 		imp_arbol_rec_DIR(ar);
-		printf("\n\n");
+		printf("\n\nDRI\n");
 		imp_arbol_rec_DRI(ar);
 		printf("\n\n");
 		
